@@ -40,7 +40,7 @@ public class pspud1e3 {
                 System.out.println(token);
                 System.out.println("....");
                 
-                Pattern patron = Pattern.compile("Nombre+", Pattern.CASE_INSENSITIVE);
+                Pattern patron = Pattern.compile("Nombre", Pattern.CASE_INSENSITIVE);
                 Matcher buscador = patron.matcher(token);
                 //contador++;
                 //System.out.println(contador);
